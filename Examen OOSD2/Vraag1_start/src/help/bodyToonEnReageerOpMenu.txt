@@ -1,0 +1,22 @@
+		String[] keuzes = { "Toon alle siertuinpercelen", "Toon alle percelen gesorteerd op grootte en waarde",
+				"Geef totale oppervlakte van de tuin", "Geef vrije oppervlakte in de tuin", "Stop" };
+		int keuze = maakKeuzeUitMenu(keuzes);
+		switch (keuze) {
+		case 1:
+			System.out.println("\nAlle siertuinpercelen:");
+			System.out.println(dc.geefAlleSiertuinpercelen());
+			break;
+		case 2:
+			System.out.println("\nAlle tuinpercelen gesorteerd volgens grootte en waarde:");
+			System.out.println(dc.geefGesorteerdeTuinpercelen());
+			break;
+		case 3:
+			System.out.printf("%nDe totale oppervlakte van de tuin is %.2f vierkante meter", dc.geefOppervlakte());
+			break;
+		case 4:
+			System.out.printf("%nDe vrije oppervlakte in de tuin is %.2f vierkante meter groot",
+					dc.geefVrijeOppervlakte());
+			break;
+		default:
+			break;
+		}
