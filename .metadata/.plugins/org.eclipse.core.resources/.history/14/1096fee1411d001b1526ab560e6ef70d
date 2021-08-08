@@ -1,0 +1,27 @@
+package cui;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+	
+		
+		Scanner a = new Scanner(System.in);
+		int input; 
+		int addition=0;
+		
+		System.out.printf("Input positive number for addition. Input negative for result. ");
+		input = a.nextInt();
+	
+	if (input <0) System.out.printf("The result is %d", addition);
+	else while (input >=0) {addition = addition + input;
+	System.out.printf("Input positive number for addition. Input negative for result. ");
+	input = a.nextInt();}
+	
+	
+	}
+
+
+}

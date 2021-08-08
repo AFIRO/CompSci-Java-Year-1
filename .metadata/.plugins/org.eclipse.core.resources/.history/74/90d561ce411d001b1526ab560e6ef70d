@@ -1,0 +1,23 @@
+package cui;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+	
+		
+		Scanner a = new Scanner(System.in);
+		int input;
+		
+		System.out.printf("Set number ");
+		input = a.nextInt();
+	
+	if (input <0) System.out.println("Number is negative.");
+	else System.out.println("Number is not negative.");
+	
+	}
+
+
+}

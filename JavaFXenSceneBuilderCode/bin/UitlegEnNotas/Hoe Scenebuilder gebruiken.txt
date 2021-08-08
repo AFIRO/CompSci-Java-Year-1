@@ -1,0 +1,17 @@
+1. Rechtsklik GUI > new > Other...> New FXML Document
+2. Kies layout
+3. Zet objecten in layout en geef ze naan bij objectID
+4. Indien ActionEvent nodig, geef naam aan methode.
+5. Ga naar onderste code en vink controller aan.
+6. Save en terug naar Eclipse.
+7. Ga naar FXML en rechtclick "generate controller" bij Source.
+8. Ga naar controller en extend de gekozen layout.
+9. Copy paste de code in de constructor van BeheersKostenSchermSceneBuilderController.
+10. Pas de .fxml aan naar de gemaakte fxml.
+11. Ga naar startup en maak nieuw object van controller.
+12. gebruik deze als object bij scene constructor.
+
+Indien scherm info nodig heeft uit domein, domeincontroller insteken als object.
+Alles van normaal buildGUI() direct aanpassen in de controller. Je kan ook extra dingen toevoegen zoals normaal via JavaFX en dit zal werken.
+
+Alle on actions gaan automatisch de bijhorende methode gedefineerd in Scenebuilder activeren. Een extra SetOnAction() is niet nodig.

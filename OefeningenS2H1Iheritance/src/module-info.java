@@ -1,0 +1,2 @@
+module Oefeningen21Iheritance {
+}

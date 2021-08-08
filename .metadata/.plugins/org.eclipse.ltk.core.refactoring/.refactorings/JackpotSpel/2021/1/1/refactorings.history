@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 packages to &apos;Jackpotspel&apos;&#x0D;&#x0A;- Original project: &apos;JackpotSpel&apos;&#x0D;&#x0A;- Destination element: &apos;Jackpotspel&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     JackpotSpel/src/domain&#x0D;&#x0A;     JackpotSpel/src/cui&#x0D;&#x0A;- Update references to refactored element" description="Move packages" element1="/src&lt;domain" element2="/src&lt;cui" flags="589830" fragments="2" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1610202263609" target="/Oefeningen H4/Jackpotspel" version="1.0"/>
+</session>

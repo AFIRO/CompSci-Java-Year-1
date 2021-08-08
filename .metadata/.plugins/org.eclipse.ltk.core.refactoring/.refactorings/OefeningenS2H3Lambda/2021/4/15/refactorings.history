@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;domein&apos; to &apos;OefeningenS2H2Polymorfisme/src&apos;&#x0D;&#x0A;- Original project: &apos;OefeningenS2H3Lambda&apos;&#x0D;&#x0A;- Destination element: &apos;OefeningenS2H2Polymorfisme/src&apos;&#x0D;&#x0A;- Original element: &apos;OefeningenS2H3Lambda/src/domein&apos;" description="Copy package" destination="=OefeningenS2H2Polymorfisme/src" element1="/src&lt;domein" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1618252884242" version="1.0"/>
+</session>
